@@ -4,8 +4,8 @@
 
 # 01_basic_function.py
 
-def labor_decision(working_mood, ability):
-    if working_mood == True and ability == True:
+def labor_decision(working_mood, ability, allowance):
+    if working_mood == True and ability == True and allowance == True:
         work_result = True
     else:
         work_result = False
@@ -13,6 +13,7 @@ def labor_decision(working_mood, ability):
 
 if __name__ == '__main__':
     working_mood = True
-    ability = False
-    result = labor_decision(working_mood, ability)
+    ability = True
+    allowance = True
+    result = labor_decision(working_mood, ability, allowance)
     print(result)
