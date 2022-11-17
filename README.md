@@ -5,4 +5,5 @@
 <li>Basic concept of a function which takes multiple arguments: 02_function_multiple_arguments.py</li>
 <li>Declare and provide input knowledge in order to provide a desired output: 03_function_metadata.py</li>
 <li>Setting default input parameters for a function: 04_function_default_parameters.py</li>
+<li>Reduce the number of arguments to be passed to a function: 05_use_partial_input.py</li>
 </ol>
